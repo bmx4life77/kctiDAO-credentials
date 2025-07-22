@@ -5,13 +5,7 @@
 - 87% of organizations report critical skills gaps
 - Average hiring cycle: 45 days due to manual verification
 ## 2. Our Solution: Optimism-Powered Credentials
-
-graph TD
-    A[Educational Partner] -->|Issues Credential| B(zk-SNARK Proof)
-    B --> C[Store on IPFS]
-    C --> D[Anchor Proof on Optimism]
-    D --> E{Employer}
-    E -->|Verify| F[Hire in 72h]
+![Credential Flow Diagram](https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0VkdWNhdGlvbmFsIFBhcnRuZXJdIC0tPiBCW3prLUNyZWRlbnRpYWxdXG4gICAgQiAtLT4gQ1tTdG9yZSBvbiBJUERTXVxuICAgIEMgLS0-IERbQW5jaG9yIFByb29mIG9uIE9wdGltaXNtXVxuICAgIEQgLS0-IEVbRW1wbG95ZXJdXG4gICAgRSAtLT4gRltIaXJlIGluIDcyaF1cbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 ### Core Components
 | **Technology** | **Role** | **Benefit** |
@@ -29,15 +23,13 @@ graph TD
   - Superchain interoperability
 
 ## 4. Impact Projections (Year 1)
+[Impact Projections Chart](https://mermaid.ink/svg/eyJjb2RlIjoicGllXG4gICAgdGl0bGUgUHJvamVjdGVkIFllYXIgMSBJbXBhY3RcbiAgICAiSm9icyBGaWxsZWQiIDogNDJcbiAgICAiQ3JlZGVudGlhbHMgSXNzdWVkIiA6IDMzXG4gICAgIkVtcGxveWVyIFNhdmluZ3MiIDogMjUiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
 
-[Impact Pie Chart]
-(https://mermaid.ink/img/pieeJzNksEKwjAQhu8i5Jw9SfGgF_HoQXoQxEOP0rS7kG5IkgbE0Hd3UxGkg3iYzPz_zJ8DzDg4l4lH5U0wK8fCj1i8lXkRz6T5Jd6C1cGdWfM1dN7fO5mXqYdNq2rWtYd6sHjZt3zYdX6vHjYdXy7HtYdFy3HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw2HhYtBw?type=png)
-pie
-    title Projected Year 1 Impact
-    "Jobs Filled" : 42
-    "Credentials Issued" : 33
-    "Employer Savings" : 25
-
+| Metric | Percentage | Target Value |
+|--------|------------|--------------|
+| Jobs Filled | 42% | 50,000 positions |
+| Credentials Issued | 33% | 750,000 credentials |
+| Employer Savings | 25% | $200M industry-wide |
 
 ## 5. Roadmap
 - **Q3 2025**: Optimism Goerli testnet deployment
